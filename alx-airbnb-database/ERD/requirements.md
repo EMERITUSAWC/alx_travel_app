@@ -1,9 +1,14 @@
-# Requirements for Airbnb ER Diagram
+# ER Diagram Requirements for the Airbnb Clone
 
-- The database contains the following tables: Users, Places, Reviews, Amenities
-- Each table includes a primary key
-- One-to-many relationship: Users → Places
-- One-to-many relationship: Places → Reviews
-- Many-to-many relationship: Places ↔ Amenities (through Place_Amenity table)
-- Foreign keys are used to link relationships properly
-- The ERD image is saved as airbnb_erd.png
+- The diagram includes the following tables:
+  - Users
+  - Places
+  - Reviews
+  - Amenities
+
+- Each table has a unique primary key
+- Users can have many Places (one-to-many)
+- Places can have many Reviews (one-to-many)
+- Places and Amenities share a many-to-many relationship through Place_Amenity
+- Foreign key relationships are clearly defined
+- The ER diagram is saved as airbnb_erd.png and stored in the ERD folder
