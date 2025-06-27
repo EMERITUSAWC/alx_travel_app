@@ -1,19 +1,9 @@
-# ER Diagram – Airbnb Database Project
+# Requirements for Airbnb ERD
 
-This ERD represents the relationship between the main entities in the Airbnb-like platform.
-
-## 🧱 Entities
-- **User**
-- **Property**
-- **Booking**
-- **Payment**
-
-## 🔗 Relationships
-- A **User** can act as a host or guest
-- A **Host** owns multiple Properties
-- A **Guest** can make multiple Bookings
-- Each **Booking** is linked to a **Property**
-- Each **Booking** has an associated **Payment**
-
-## 📌 Diagram Reference
-![ER Diagram](./airbnb_erd.png)
+- At least 4 tables: Users, Places, Reviews, Amenities
+- Primary keys in each table
+- One-to-many: Users → Places
+- One-to-many: Places → Reviews
+- Many-to-many: Places ↔ Amenities (via association table)
+- Use foreign keys correctly
+- Diagram saved as airbnb_erd.png in PNG format
