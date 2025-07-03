@@ -1,13 +1,12 @@
-# Project 0: Write Complex Queries with Joins
+---
 
-## Description
-This project demonstrates the use of SQL JOINs to retrieve data from multiple related tables in an Airbnb-like database.
+## Project 1: Practice Subqueries
 
-## Queries Included
-1. INNER JOIN - Bookings and their users
-2. LEFT JOIN - Properties and their reviews
-3. FULL OUTER JOIN - Users and bookings (even without matches)
+### Description
+This project includes two SQL subqueries to analyze Airbnb data:
+- One non-correlated subquery to find highly-rated properties
+- One correlated subquery to find active users with many bookings
 
-## Author
-Clement Wewotah Abagna
+### Files
+- subqueries.sql
 
