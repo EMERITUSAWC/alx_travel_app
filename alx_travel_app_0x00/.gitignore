@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+.env
+*.log
+
+# Virtual environments
+venv/
+env/
+.platformio/
+penv/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Migrations (optional – only ignore if ALX allows)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Byte-compiled files
+*.pyo
+*.pyd
+*.pyc
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Local configuration
+*.local
