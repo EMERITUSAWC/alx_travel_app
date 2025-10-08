@@ -7,11 +7,10 @@ db.sqlite3
 # Virtual environments
 venv/
 .env/
-.platformio/
-.idea/
-.vscode/
 
-# OS files
+# OS and editor files
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 
